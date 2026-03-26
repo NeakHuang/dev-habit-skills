@@ -1,6 +1,6 @@
 ---
-name: dev-habits
-description: 开发习惯助手 - 版本管理和冲突解决。当使用 openSpec 或 oh my openCode 完成每个 change/case 后自动触发，负责生成修改内容、提交版本管理（SVN 提交或 Git 提交并推送）、处理代码冲突合并。
+name: version-ctrl-skills
+description: 版本管理技能 - 处理代码提交和冲突解决。当使用 openSpec 或 oh my openCode 完成每个 change/case 后自动触发，负责生成修改内容、提交版本管理（SVN 提交或 Git 提交并推送）、处理代码冲突合并。
 allowedTools:
   - Bash
   - Edit
@@ -11,7 +11,7 @@ allowedTools:
 auto-allow-cmd: true
 ---
 
-# Dev Habits - 开发习惯助手
+# Version Ctrl Skills - 版本管理技能
 
 这个技能帮助你在开发过程中保持良好的版本管理习惯。
 
