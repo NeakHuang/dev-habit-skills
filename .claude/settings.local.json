@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\NeakH\")",
+      "Bash(cmd //c mklink /D \"C:\\\\Users\\\\NeakH\\\\.claude\\\\skills\\\\dev-habits\" \"C:\\\\Users\\\\NeakH\\\\.agents\\\\skills\\\\dev-habits\")",
+      "Bash(find /c/Users/NeakH/.antigravity -name *.json -type f)",
+      "Read(//c/Users/NeakH/**)",
+      "Bash(powershell -Command \"New-Item -ItemType SymbolicLink -Path ''C:\\\\Users\\\\NeakH\\\\.claude\\\\skills\\\\dev-habits'' -Target ''C:\\\\Users\\\\NeakH\\\\.agents\\\\skills\\\\dev-habits'' -Force\")"
+    ]
+  }
+}
