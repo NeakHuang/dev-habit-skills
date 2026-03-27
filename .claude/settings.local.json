@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(dir \"C:\\\\Users\\\\NeakH\")",
-      "Bash(find /c/Users/NeakH/.antigravity -name *.json -type f)",
-      "Read(//c/Users/NeakH/**)"
-    ]
-  }
-}
